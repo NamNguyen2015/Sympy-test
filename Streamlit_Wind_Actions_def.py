@@ -117,7 +117,7 @@ def ce(I_v=I_v(z), c_r=c_r(z), c_o=c_o(z)):
 def cprob(K=K, n=n, p=p):
     return (((1-K*ln(-ln(1-p,evaluate=False)))/(1-K*ln(-ln(0.98,evaluate=False)))))**n
 #%%
-st.latex(latex(Eq(v_m(z), vm())))
+#st.latex(latex(Eq(v_m(z), vm())))
 
 # In[ ]:
 st.title(' Wind and thermal actions on bridge deck and piers')
