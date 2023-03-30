@@ -5,7 +5,7 @@
 
 
 
-from sympy import *
+from sympy import Function, Eq, Symbol, Rational, ln, latex
 from sympy import symbols
 from IPython.display import display,  Latex, Image, SVG
 from sympy import UnevaluatedExpr as UX
