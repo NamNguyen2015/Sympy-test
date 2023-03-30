@@ -8,7 +8,7 @@
 from sympy import * #Function, Eq, Symbol, Rational, ln, latex
 from sympy import symbols
 from sympy.physics.continuum_mechanics.beam import Beam
-from IPython.display import display,  Latex, Image, SVG
+#from IPython.display import display,  Latex, Image, SVG
 from sympy import UnevaluatedExpr as UX
 from sympy.core.parameters import distribute   
 import streamlit as st
