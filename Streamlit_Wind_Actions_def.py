@@ -162,7 +162,7 @@ st.write('Input parameters')
 
 
 
-c_dir_val = st.number_input(str(st.latex(r'''c_{dir}=''')),1.0)
+c_dir_val = st.number_input('c_dir=',1.0)
 
 
 
