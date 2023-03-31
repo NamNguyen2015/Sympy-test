@@ -202,6 +202,26 @@ st.write("I check if the input values is interactive: ")
 
 st.latex(latex(Eq(rho*A_ref, rho_val*A_ref_val)))
 
+st.write("Great job!!!!!")
+
+
+
+st.markdown(
+    f""" 
+    **This is your selected parameters:**
+    * $c_{dir}=${c_dir}
+    * $c_{dir}=${c_dir}
+    
+            
+            
+            
+            
+            
+            
+            
+    """
+)
+
 
 # In[12]:
 
