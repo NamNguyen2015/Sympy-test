@@ -158,44 +158,45 @@ st.write('the turbulence divided be the mean velocity, and is expressed by the f
 # In[5]:
 st.write('Input parameters')
 
+c_dir_val = st.number_input('c_dir:', value=1.0, key='c_dir')
 
-c_dir_val = st.number_input('c_dir:',1.0)
+c_season_val= st.number_input('c_season:', value=1.0, key='c_season')
+
+v_b0_val= st.number_input('v_b0:', value=26.0, key='v_b0')
+
+p_val= st.number_input('p:', value=0.01, key='p')
+
+K_val= st.number_input('K:', value=0.2, key='K')
+
+n_val= st.number_input('n:', value=0.5, key='n')
+
+rho_val= st.number_input('rho:', value=1.25, key='rho')
+
+z_0_val= st.number_input('z_0:', value=0.05, key='z_0')
+
+z_0II_val= st.number_input('z_0II:', value=0.05, key='z_0II')
+
+z_val= st.number_input('z:', value=10.0, key='z')
+
+z_min_val= st.number_input('z_min:', value=2.0, key='z_min')
+
+k_I_val= st.number_input('k_I:', value=1.0, key='k_I')
+
+A_ref_val= st.number_input('A_ref:', value=800.0, key='A_ref')
+
+c_d_val= st.number_input('c_d:', value=1.0, key='c_d')
+
+c_s_val= st.number_input('c_s:', value=1.0/c_d_val, key='c_s')
+
+c_f_val= st.number_input('c_f:', value=1.55, key='c_f')
+
+c_o_val= st.number_input('c_o_val:', value=1.0, key='c_o_val')
 
 
-c_season_val= st.number_input('c_dir:',1.0)#=1.0
 
-v_b0_val= st.number_input('c_season:',26.0)#= 26
 
-p_val= st.number_input('p:',0.01)#=0.01
 
-# =============================================================================
-# K_val= st.number_input('K:',0.2)#=0.2
-# 
-# n_val= st.number_input('n:',0.5)#=0.5
-# 
-# rho_val= st.number_input('rho:',1.25)#=1.25
-# 
-# z_0_val= st.number_input('z_0:',0.05)#=0.05
-# 
-# z_0II_val= st.number_input('z_0II:',0.05)#=0.05
-# 
-# z_val= st.number_input('z:',10.0)#=10
-# 
-# z_min_val= st.number_input('z_min:',2.0)#=2.0
-# 
-# k_I_val= st.number_input('k_I:',1.0)#=1.0
-# 
-# A_ref_val= st.number_input('A_ref:',800.0)#=800
-# 
-# c_d_val= st.number_input('c_d:',1.0)#=1.0
-# 
-# c_s_val= st.number_input('c_s:',1.0)#=1/c_d_val
-# 
-# c_f_val= st.number_input('c_f:',1.55)#=1.55
-# 
-# c_o_val= st.number_input('c_o_val:',1.0)#=1.0
-# 
-# =============================================================================
+
 
 # In[12]:
 
