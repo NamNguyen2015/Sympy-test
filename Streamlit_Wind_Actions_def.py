@@ -193,6 +193,12 @@ c_f_val= st.number_input('c_f:', value=1.55, key='c_f')
 c_o_val= st.number_input('c_o_val:', value=1.0, key='c_o_val')
 
 
+#%% Generate button
+
+st.button(label="Pick up values", on_click=True)
+
+
+
 
 
 
