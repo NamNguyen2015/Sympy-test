@@ -195,12 +195,7 @@ c_o_val= st.number_input('c_o_val:', value=1.0, key='c_o_val')
 
 #%% Generate button
 
-st.button(label="Pick up values", on_click=True)
-
-
-
-
-
+#st.button(label="Pick up values", on_click=True)
 
 
 
