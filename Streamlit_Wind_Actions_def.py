@@ -202,10 +202,10 @@ st.write("I check if the input values is interactive: ")
 
 st.latex(latex(Eq(rho*A_ref, rho_val*A_ref_val)))
 
-glad_text=st.write("Great job!!!!!")
+st.write("Great job!!!!!")
 
-new_title = '<p style="font-family:sans-serif; color:Red; font-size: 42px;">glad_text</p>'
-st.markdown(new_title, unsafe_allow_html=True)
+Params = '<p style="font-family:sans-serif; color:Red; font-size: 42px;">**This is your selected parameters:**</p>'
+st.markdown(Params, unsafe_allow_html=True)
 
 
 st.markdown(f""" 
