@@ -209,6 +209,8 @@ st.write("Great job!!!!!")
 st.markdown(f""" 
     **This is your selected parameters:**
 - $c_{{dir}}=$ {c_dir_val}
+- $c_{{season}}=$ {c_season_val}
+- $c_{{s}}=$ {c_s_val}
 
 
 
