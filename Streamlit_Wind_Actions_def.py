@@ -202,14 +202,15 @@ st.write("I check if the input values is interactive: ")
 
 st.latex(latex(Eq(rho*A_ref, rho_val*A_ref_val)))
 
-st.write("Great job!!!!!")
+text=st.write("Great job!!!!!")
 
-Params = '<p style="font-family:sans-serif; color:Red; font-size: 42px;">**This is your selected parameters:**</p>'
-st.markdown(Params, unsafe_allow_html=True)
+Params1 = '<p style="font-family:sans-serif; color:Red; font-size: 42px;">This is your selected parameters:</p>'
+
+Params = '<p style="font-family:sans-serif; color:Red; font-size: 42px;" text </p>'
+st.markdown(Params1, unsafe_allow_html=True)
 
 
 st.markdown(f""" 
-    **This is your selected parameters:**
 - $c_{{dir}}=$ {c_dir_val}
 - $c_{{season}}=$ {c_season_val}
 
