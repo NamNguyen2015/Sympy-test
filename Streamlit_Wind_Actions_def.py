@@ -160,9 +160,9 @@ st.write('the turbulence divided be the mean velocity, and is expressed by the f
 # In[5]:
 st.write('Input parameters')
 
-#label1=st.latex(r'c_{dir}=')
 
-c_dir_val = st.number_input("dfdjsbf {}".format(st.latex(latex(c_d))), value=1.0)
+st.latex(r'c_{dir}=')
+c_dir_val = st.number_input("", value=1.0)
 
 
 
