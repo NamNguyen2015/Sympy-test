@@ -188,7 +188,7 @@ A_ref_val= st.number_input('A_ref:',800.0)#=800
 
 c_d_val= st.number_input('c_d:',1.0)#=1.0
 
-c_s_val= st.number_input('c_s:',1/c_d_val)#=1/c_d_val
+c_s_val= st.number_input('c_s:',1.0)#=1/c_d_val
 
 c_f_val= st.number_input('c_f:',1.55)#=1.55
 
