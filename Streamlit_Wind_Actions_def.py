@@ -162,7 +162,7 @@ st.write('Input parameters')
 
 #label1=st.latex(r'c_{dir}=')
 
-c_dir_val = st.number_input(st.latex(latex(r'c_{dir}')), value=1.0)
+c_dir_val = st.number_input(st.latex(latex(c_d)), value=1.0)
 
 
 
