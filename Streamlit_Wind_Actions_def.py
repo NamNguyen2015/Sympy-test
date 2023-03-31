@@ -202,7 +202,7 @@ st.write("I check if the input values is interactive: ")
 
 st.latex(latex(Eq(rho*A_ref, rho_val*A_ref_val)))
 
-text = '<p style="font-family:sans-serif; color:Red; font-size: 42px;">This is your selected parameters:</p>'
+text = '<p style="font-family:sans-serif; color:Red; font-size: 42px;">GREAT!</p>'
 st.markdown(text, unsafe_allow_html=True)
 
 Params = '<p style="font-family:sans-serif; color:Green; font-size: 32px;">This is your selected parameters:</p>'
