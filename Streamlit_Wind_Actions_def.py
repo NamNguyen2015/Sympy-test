@@ -160,9 +160,9 @@ st.write('the turbulence divided be the mean velocity, and is expressed by the f
 # In[5]:
 st.write('Input parameters')
 
-label=st.latex(r'c_{dir}=')
+label1=st.latex(r'c_{dir}=')
 
-c_dir_val = st.number_input(label=label, value=1.0)
+c_dir_val = st.number_input(label=label1, value=1.0)
 
 c_season_val=1.0
 v_b0_val= 26
