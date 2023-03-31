@@ -207,7 +207,7 @@ text=st.write("Great job!!!!!")
 Params1 = '<p style="font-family:sans-serif; color:Red; font-size: 42px;">This is your selected parameters:</p>'
 
 Params = '<p style="font-family:sans-serif; color:Red; font-size: 42px;" text </p>'
-st.markdown(Params1, unsafe_allow_html=True)
+st.markdown(Params, unsafe_allow_html=True)
 
 
 st.markdown(f""" 
