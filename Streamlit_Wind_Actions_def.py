@@ -190,7 +190,7 @@ c_s_val= st.number_input('c_s:', value=1.0/c_d_val, key='c_s')
 
 c_f_val= st.number_input('c_f:', value=1.55, key='c_f')
 
-c_o_val= st.number_input('c_o_val:', value=1.0, key='c_o_val')
+c_o_val= st.number_input('c_o:', value=1.0, key='c_o')
 
 
 #%% Generate button
@@ -210,7 +210,22 @@ st.markdown(f"""
     **This is your selected parameters:**
 - $c_{{dir}}=$ {c_dir_val}
 - $c_{{season}}=$ {c_season_val}
+
+- $v_{{b0}}=$ {v_b0_val}
+- $c=$ {p_val}
+- $K=$ {K_val}
+- $n=$ {n_val}
+- $\rho=$ {rho_val}
+- $z_{{0}}=$ {z_0_val}
+- $z_{{0,II}}=$ {z_0II_val}
+- $z=$ {z_val}
+- $z_{{min}}=$ {z_min_val}
+- $k_{{I}}=$ {k_I_val}
+- $A_{{ref}}=$ {A_ref_val}
+- $c_{{d}}=$ {c_d_val}
 - $c_{{s}}=$ {c_s_val}
+- $c_{{f}}=$ {c_f_val}
+- $c_{{o}}=$ {c_o_val}
 
 
 
