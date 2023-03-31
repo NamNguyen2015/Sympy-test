@@ -218,7 +218,7 @@ st.markdown(f"""
 - $c=$ {p_val}
 - $K=$ {K_val}
 - $n=$ {n_val}
-- $\rho=$ {rho_val}
+- $\\rho=$ {rho_val}
 - $z_{{0}}=$ {z_0_val}
 - $z_{{0,II}}=$ {z_0II_val}
 - $z=$ {z_val}
