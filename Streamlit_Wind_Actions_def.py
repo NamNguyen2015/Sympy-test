@@ -162,13 +162,13 @@ st.write('Input parameters')
 c_dir_val = st.number_input('c_dir:',1.0)
 
 
+c_season_val= st.number_input('c_dir:',1.0)#=1.0
+
+v_b0_val= st.number_input('c_season:',26.0)#= 26
+
+p_val= st.number_input('p:',0.01)#=0.01
+
 # =============================================================================
-# c_season_val= st.number_input('c_dir:',1.0)#=1.0
-# 
-# v_b0_val= st.number_input('c_season:',26.0)#= 26
-# 
-# p_val= st.number_input('p:',0.01)#=0.01
-# 
 # K_val= st.number_input('K:',0.2)#=0.2
 # 
 # n_val= st.number_input('n:',0.5)#=0.5
