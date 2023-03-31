@@ -198,6 +198,10 @@ c_o_val= st.number_input('c_o_val:', value=1.0, key='c_o_val')
 #st.button(label="Pick up values", on_click=True)
 
 
+st.write("I check if the input values is interactive: ")
+
+st.latex(latex(Eq(rho*A_ref, rho_val*A_ref_val)))
+
 
 # In[12]:
 
