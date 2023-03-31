@@ -208,8 +208,8 @@ st.write("Great job!!!!!")
 
 st.markdown(f""" 
     **This is your selected parameters:**
-- $c_{dir}=${c_dir}
-* $c_{dir}=${c_dir}
+- $c_{dir}=$ {c_dir_val}
+
 
 
 """)
