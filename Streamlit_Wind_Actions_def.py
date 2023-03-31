@@ -161,8 +161,8 @@ st.write('the turbulence divided be the mean velocity, and is expressed by the f
 st.write('Input parameters')
 
 
-st.latex(r'c_{dir}=')
-c_dir_val = st.number_input("", value=1.0)
+
+c_dir_val = st.number_input(str(st.latex(r'''c_{dir}=''')), value=1.0)
 
 
 
