@@ -160,9 +160,9 @@ st.write('the turbulence divided be the mean velocity, and is expressed by the f
 # In[5]:
 st.write('Input parameters')
 
-c_dir = r'\frac{\partial C}{\partial x}'
-c_dir_val = st.text_input(label="", key="c_dir_val")
-st.markdown(f"<p style='font-family:\"Courier New\", monospace; font-size:medium'>Enter value for {c_dir}:</p>", unsafe_allow_html=True)
+st.latex(r'c_{dir}')
+
+#c_dir_val = st.number_input(label=st.latex(c_dir), value=1.0)
 
 c_season_val=1.0
 v_b0_val= 26
