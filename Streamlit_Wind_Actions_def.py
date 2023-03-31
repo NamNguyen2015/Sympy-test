@@ -162,7 +162,7 @@ st.write('Input parameters')
 
 label1=st.latex(r'c_{dir}=')
 
-c_dir_val = st.number_input(''.label1, value=1.0)
+c_dir_val = st.number_input('{}'.format(label1), value=1.0)
 
 c_season_val=1.0
 v_b0_val= 26
