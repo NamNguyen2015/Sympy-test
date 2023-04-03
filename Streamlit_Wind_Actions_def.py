@@ -14,7 +14,7 @@ import streamlit as st
 
 # 
 # 
-st.write('See [EuroCode](https://eurocodeapplied.com/) for more information.') 
+st.write('See [Euro Code Application](https://eurocodeapplied.com/) for comparison.') 
 
 
 # ## Part A: Wind and thermal actions on bridge deck and piers
