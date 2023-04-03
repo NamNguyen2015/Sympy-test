@@ -4,7 +4,6 @@
 # In[2]:
 
 
-
 from sympy import * #Function, Eq, Symbol, Rational, ln, latex
 from sympy import symbols
 from sympy.physics.continuum_mechanics.beam import Beam
@@ -193,14 +192,7 @@ c_f_val= st.number_input('c_f:', value=1.55, key='c_f')
 c_o_val= st.number_input('c_o:', value=1.0, key='c_o')
 
 
-#%% Generate button
-
-#st.button(label="Pick up values", on_click=True)
-
-
-st.write("I check if the input values is interactive: ")
-
-st.latex(latex(Eq(rho*A_ref, rho_val*A_ref_val)))
+#%%
 
 text = '<p style="font-family:sans-serif; color:Red; font-size: 42px;">GREAT!</p>'
 st.markdown(text, unsafe_allow_html=True)
