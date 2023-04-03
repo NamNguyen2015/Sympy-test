@@ -14,7 +14,7 @@ import streamlit as st
 
 # 
 # 
-st.write('See [Euro Code Application](https://eurocodeapplied.com/) for comparison.') 
+st.write('See [The EurocodeApplied.com](https://eurocodeapplied.com/) for comparison.') 
 
 
 # ## Part A: Wind and thermal actions on bridge deck and piers
@@ -231,15 +231,6 @@ st.markdown(f"""
 
 
 st.latex(latex(Eq(F_w(z_e),Fw(z_e))))
-
-
-# In[14]:
-
-
-#Fw(z_e)
-
-#print_latex(Fw(z_e))
-#print_latex(Eq(F_w(z_e),Fw(z_e)))
 
 
 
